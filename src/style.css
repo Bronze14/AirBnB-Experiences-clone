@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 853px;
+  border-radius: 2px;
+  font-family: 'Poppins', sans-serif;
+  width: 550px;
+}
+
+.Navbar{
+  
+  height: 70px;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+
+}
+.Navbar-title{
+  margin-left: 30px;
+  margin-top: 22px;
+  height: 25.35px;
+}
+.Hero{
+  
+  margin-left: 77px;
+  margin-top: 26px; 
+  display: flex;
+  margin-bottom: 32px;
+}
+.Hero-img1{
+  margin-top: 75px;
+  margin-right: 9px;
+  height: 96.42px;
+  width: 72.31px;
+}
+.Row1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  margin-top: 24px;
+}
+.Row1 img{
+  margin-top: 9px;
+}
+.Row2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  margin-top: 47px;
+}
+.Row2 img{
+  margin-top: 9px;
+}
+.Row3 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  margin-top: 17px;
+}
+.Row3 img{
+  margin-top: 9px;
+}
+.Row4 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  margin-top: 35px;
+}
+.Row4 img{
+  margin-top: 9px;
+}
+.Hero-img2{
+  height: 64px;
+  width: 74px;
+}
+.Hero-img3{
+  height: 97px;
+  width: 72px;
+}
+.Hero-img4{
+  height: 96px;
+  width: 73px;
+}
+.Hero-img5{
+  height: 97px;
+  width: 73px;
+}
+.Hero-img6{
+  height: 96px;
+  width: 72px;
+}
+.Hero-img7{
+  height: 96px;
+  width: 72px;
+}
+.Hero-img8{
+  height: 97px;
+  width: 72px;
+}
+.Hero-img9{
+  height: 97px;
+  width: 72px;
+}
+.Hero-h1{
+  font-size: 36px;
+  line-height: 39.6px;
+  font-weight: 600;
+  margin-left: 36px;
+  font-family: Poppins;
+}
+.Hero-h3{
+  font-size: 16px;
+  line-height: 17.6px;
+  font-weight: 300;
+  margin-left: 36px;
+  font-family: Poppins;
+  width: 320px;
+}
+section {
+  padding: 20px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 11px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
+  position: relative;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+/* ADD */
+.card--price {
+  margin-top: auto;
+}
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
